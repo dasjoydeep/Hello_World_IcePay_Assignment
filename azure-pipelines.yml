@@ -6,7 +6,7 @@ pool:
 
 variables:
   imageName: 'pipelines-hello-world-javascript-docker'
-
+  dockerHub: 'joyddocker/hello_world_assignment_icepay'
 steps:
 - task: Docker@2
   displayName: Build an image
