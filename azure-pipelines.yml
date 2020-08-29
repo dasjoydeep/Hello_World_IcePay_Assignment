@@ -6,7 +6,6 @@ pool:
 
 variables:
   imageName: 'pipelines-hello-world-javascript-docker'
-  dockerHub: 'Icepayassignmentconnection'
 
 steps:
 - task: Docker@2
