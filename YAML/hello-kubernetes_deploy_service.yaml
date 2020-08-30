@@ -29,3 +29,4 @@ spec:
         image: joyddocker/hello_world_assignment_icepay:IcePayAssignmentFinalRun
         ports:
         - containerPort: 8080
+          protocol: TCP
